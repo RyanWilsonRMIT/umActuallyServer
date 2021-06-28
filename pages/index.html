@@ -1,0 +1,19 @@
+<header>
+    <script src="/scripts/index.js" defer></script>
+    <link rel="stylesheet" href="/styles/styles.css"> </link>
+</header>
+<div class = "mainPage">
+    <h1>Welcome to Um, Actually</h1>
+    <p>Welcome the gameshow for funss</p>
+    <div class = "content">
+        <div class="line">
+            <button class = "primaryBtn" onclick="window.location.href = '/host'"> Host new game </button>
+        </div>
+        <fieldset style="border: none; border-top: 1px solid black">
+        <legend>Or</legend>
+        </fieldset>
+        <div class="line">
+            <input class = "primaryTxt" id="gameCode" type = "tel" placeholder= "Enter game Code" /> <button onclick="window.location.href = '/join?id=' + document.getElementById('gameCode').value" class="primaryBtn labelBtn"> Join Existing Game </button>
+        </div>
+    </div>
+</div>

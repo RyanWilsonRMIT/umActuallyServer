@@ -1,0 +1,24 @@
+{
+  "name": "umactuallyserver",
+  "version": "1.0.0",
+  "description": "NodeJS server for socket handling for um Actually",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyanWilsonRMIT/umActuallyServer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RyanWilsonRMIT/umActuallyServer/issues"
+  },
+  "homepage": "https://github.com/RyanWilsonRMIT/umActuallyServer#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.1.2"
+  }
+}
