@@ -91,3 +91,16 @@ legend{
     overflow:auto;
     margin:auto;
 }
+.section{
+    display:none;
+}
+.selected{
+    background-color:red;
+}
+.player{
+    padding:20px;
+    font-size:40px;
+    display:block;
+    margin:auto;
+    border-radius:20px;
+}
